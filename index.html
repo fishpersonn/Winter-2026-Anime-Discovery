@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Winter 2026 Anime</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      // Global Error Handler
+      window.addEventListener('error', function(e) {
+        if (e.message === 'ResizeObserver loop limit exceeded') return;
+        const root = document.getElementById('root');
+        if (root && !root.hasChildNodes()) {
+          const msg = document.createElement('div');
+          msg.style.cssText = "position:fixed;top:0;left:0;width:100%;padding:20px;background:#330000;color:#ff6b6b;z-index:9999;font-family:monospace;white-space:pre-wrap;";
+          msg.innerHTML = "<strong>Critical Startup Error:</strong><br/>" + e.message;
+          document.body.appendChild(msg);
+          console.error("Startup Failure:", e);
+        }
+      });
+      
+      // Polyfill process just in case
+      window.process = window.process || { env: { API_KEY: '' } };
+    </script>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
+    "lucide-react": "https://esm.sh/lucide-react@0.263.1",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+    "react/": "https://esm.sh/react@18.2.0/"
+  }
+}
+</script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              cyber: {
+                900: '#0f172a',
+                800: '#1e293b',
+                700: '#334155',
+                accent: '#3b82f6',
+                highlight: '#60a5fa'
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #0f172a; /* cyber-900 */
+        color: #f8fafc;
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #1e293b; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #475569; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #64748b; 
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
