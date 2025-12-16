@@ -14,13 +14,13 @@
 **Winter 2026 Anime Discovery** is a modern, responsive web application designed to help anime enthusiasts explore upcoming titles for the Winter 2026 season. Built with performance and user experience in mind, it utilizes the Jikan API (Unofficial MyAnimeList API) to provide real-time data, dynamic filtering, and a seamless "Netflix-style" browsing experience.
 
 ### Key Features
-*   ** Real-time Data:** Fetches the latest anime schedule directly from Jikan API v4.
-*   ** Dynamic Filtering:** Automatically generates filter categories based on the fetched data (Source, Genre) with item counts.
-*   ** Favorites System:** "Like" your favorite anime to save them to a local watchlist (persisted via LocalStorage).
-*   ** Sorting Options:** Sort anime by Score, Popularity (Members), or Default relevance.
-*   ** Responsive Design:** Fully adaptive layout that works perfectly on mobile (1 column) to desktop (5 columns).
-*   ** Immersive Details:** Click any card to open a modal with high-res cover art, synopsis, statistics, and embedded YouTube trailers.
-*   ** Bilingual Support:** Instant toggle between English and Traditional Chinese interfaces.
+*   **Real-time Data:** Fetches the latest anime schedule directly from Jikan API v4.
+*   **Dynamic Filtering:** Automatically generates filter categories based on the fetched data (Source, Genre) with item counts.
+*   **Favorites System:** "Like" your favorite anime to save them to a local watchlist (persisted via LocalStorage).
+*   **Sorting Options:** Sort anime by Score, Popularity (Members), or Default relevance.
+*   **Responsive Design:** Fully adaptive layout that works perfectly on mobile (1 column) to desktop (5 columns).
+*   **Immersive Details:** Click any card to open a modal with high-res cover art, synopsis, statistics, and embedded YouTube trailers.
+*   **Bilingual Support:** Instant toggle between English and Traditional Chinese interfaces.
 
 ### Tech Stack
 *   **Framework:** React 18 (Client Side Rendering)
@@ -69,13 +69,13 @@ This project is optimized for deployment on [Vercel](https://vercel.com).
 **2026 冬季新番探索** 是一個現代化、響應式的網頁應用程式，專為動畫愛好者設計。它利用 Jikan API (非官方 MyAnimeList API) 提供 2026 年冬季的最新動畫資訊。專案採用「Cyberpunk」深色風格，提供類似 Netflix 的流暢瀏覽體驗。
 
 ### 核心功能
-*   ** 即時數據**：直接從 Jikan API v4 獲取最新的動畫列表。
-*   ** 動態篩選系統**：根據回傳的資料自動生成篩選類別（按來源、按類型），並顯示各類別的數量。
-*   ** 收藏功能**：點擊愛心即可將動畫加入「我的收藏」，資料儲存在瀏覽器 LocalStorage 中，關閉視窗後依然保留。
-*   ** 排序功能**：支援按「評分」、「人氣（成員數）」或「預設」順序排列動畫。
-*   ** 響應式設計**：完美支援從手機（單欄）到大螢幕桌機（五欄）的各種裝置。
-*   ** 沉浸式詳情頁**：點擊卡片開啟詳細視窗，包含高畫質封面、劇情簡介、評分統計及 YouTube 預告片播放。
-*   ** 雙語支援**：支援英文與繁體中文介面一鍵切換。
+*   **即時數據**：直接從 Jikan API v4 獲取最新的動畫列表。
+*   **動態篩選系統**：根據回傳的資料自動生成篩選類別（按來源、按類型），並顯示各類別的數量。
+*   **收藏功能**：點擊愛心即可將動畫加入「我的收藏」，資料儲存在瀏覽器 LocalStorage 中，關閉視窗後依然保留。
+*   **排序功能**：支援按「評分」、「人氣（成員數）」或「預設」順序排列動畫。
+*   **響應式設計**：完美支援從手機（單欄）到大螢幕桌機（五欄）的各種裝置。
+*   **沉浸式詳情頁**：點擊卡片開啟詳細視窗，包含高畫質封面、劇情簡介、評分統計及 YouTube 預告片播放。
+*   **雙語支援**：支援英文與繁體中文介面一鍵切換。
 
 ### 技術堆疊
 *   **框架**: React 18 (CSR)
